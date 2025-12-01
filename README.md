@@ -31,13 +31,48 @@ It provides live updates of temperature, humidity, pressure, and other weather p
 
 ---
 
-### 📈 **Data Flow**
-1. **Fetch Live Weather Data** from OpenWeatherMap API.  
-2. **Store Data** in Excel files (`weather_data/`).  
-3. **Perform Analysis** using Pandas for temperature and humidity trends.  
-4. **Visualize Results** using Matplotlib & Seaborn charts.  
-5. **Automate Updates** every hour using the Schedule library.
+🔄 Workflow
+1. API Data Collection
 
+Fetched temperature, humidity, visibility, windspeed
+
+Handled API token & errors
+
+2. Data Cleaning
+
+Converted units
+
+Removed invalid records
+
+Filled missing info
+
+3. Analysis
+
+Temp trends
+
+Humidity variation
+
+Weather condition classification
+
+4. Dashboard
+
+Multi-city comparison
+
+Forecast charts
+
+Parameter correlations
+
+✔ Run the Script
+python weather_api_fetch.py
+
+# DASHBOARD PREVIEW
+![Cricket Project Screenshot](https://github.com/Gargiparlikar/End-to-End-Cricket-Data-Analytics-Project-/blob/main/Screenshot%202025-12-01%20130620.png)
+
+🧾 Key Insights
+
+Coastal areas have 10–15% higher humidity
+
+Temperature correlates strongly with windspeed
 ---
 
 ### 💻 **Example Python Code Snippets**
@@ -57,3 +92,7 @@ record = {
     "Weather": data["weather"][0]["main"],
     "Time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 }
+---
+
+
+
