@@ -66,7 +66,7 @@ Parameter correlations
 python weather_api_fetch.py
 
 # DASHBOARD PREVIEW
-![Cricket Project Screenshot](https://github.com/Gargiparlikar/End-to-End-Cricket-Data-Analytics-Project-/blob/main/Screenshot%202025-12-01%20130620.png)
+![Weather analysis Project Dashboard Screenshot] (https://raw.githubusercontent.com/Gargiparlikar/End-to-End-Cricket-Data-Analytics-Project-/main/Screenshot%202025-12-01%20130620.png)
 
 🧾 Key Insights
 
