@@ -66,7 +66,6 @@ Parameter correlations
 python weather_api_fetch.py
 
 # DASHBOARD PREVIEW
-# DASHBOARD PREVIEW
 ![Weather Data Analysis Project Screenshot](https://github.com/Gargiparlikar/Weather-Data-Analysis-using-OpenWeatherMap-API-Python-Excel-Power-BI/blob/main/Screenshot%202025-12-01%20132158.png)
 
 🧾 Key Insights
